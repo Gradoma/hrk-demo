@@ -15,7 +15,7 @@ public class TimeController {
     @GetMapping("/time")
     @ResponseStatus(HttpStatus.OK)
     public String getCurrentTime() {
-
-        return Instant.now().toString();
+        String time = Instant.now().toString();
+        return time + "\n======== Welcome! ==========";
     }
 }
