@@ -1,1 +1,1 @@
-Heroku demo project
+Heroku demo
